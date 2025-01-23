@@ -1,0 +1,1686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10111010111" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0xDA117A">
+  <layouts>
+    <layout name="npnxnanbsnfns10111010111" font="Poppins" controllayout="npnxnanbsnfns10111010111" colorscheme="pxabnsnfns10111010111" string_table="pxabnsnfns10111010111" />
+    <layout name="pxabnsnfns10111010111" font="Poppins" controllayout="pxabnsnfns10111010111" colorscheme="pxabnsnfns10111010111" string_table="pxabnsnfns10111010111" />
+    <layout name="npxnabnsnfns10111010111" font="Poppins" controllayout="npxnabnsnfns10111010111" colorscheme="pxabnsnfns10111010111" string_table="pxabnsnfns10111010111" />
+    <layout name="npnxnanbnsnfns10111010111" font="Poppins" controllayout="npnxnanbnsnfns10111010111" colorscheme="pxabnsnfns10111010111" string_table="pxabnsnfns10111010111" />
+    <layout name="pxabnsnfns10111010110" font="Poppins" controllayout="pxabnsnfns10111010110" colorscheme="pxabnsnfns10111010111" string_table="pxabnsnfns10111010111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Diversity &amp;amp; Inclusion" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="true" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="none" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="true" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Poppins" />
+            </options>
+          </option>
+          <option name="settings" value="false" />
+          <option name="fullScreenToggle" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
+        </options>
+      </optiongroup>
+      <optiongroup name="courseOptions">
+        <options>
+          <option name="thumbnailEnabled" value="false" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111010111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111010111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111010111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111010111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111010110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns10111010111">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="focus_rect_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x002060" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDCDCDC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x214400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428E00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2E5D00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C7C00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected_hover_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="notes">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="outer_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="80" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="80" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x373737" alpha="77" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="1" stop="89" />
+                <color rgb="0x000000" alpha="6" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDA117A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="brandhighlight_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDA117A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="control_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="35" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x919191" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDA117A" alpha="30" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_label">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="settings_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="volume_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns10111010111">
+      <string id="three_image_progress_audio">postęp</string>
+      <string id="three_image_audio">dźwięk</string>
+      <string id="three_image_camera_down">ruch kamery w dół</string>
+      <string id="three_image_camera_left">ruch kamery w lewo</string>
+      <string id="three_image_camera_right">ruch kamery w prawo</string>
+      <string id="three_image_camera_up">ruch kamery w górę</string>
+      <string id="three_image_interaction_free">tryb samodzielnej eksploracji</string>
+      <string id="three_image_interaction_guided">tryb zwiedzania z przewodnikiem</string>
+      <string id="three_image_hotspot">punkt aktywny</string>
+      <string id="three_image_instructions">Aby poruszać się po obrazie 360 stopni, użyj klawiszy w, a, s i d. Aby przejść do interaktywnych znaczników i punktów aktywnych, naciśnij klawisz Tab.</string>
+      <string id="three_image_interaction">interakcja z obrazem 360°</string>
+      <string id="three_image_label">typ</string>
+      <string id="three_image_marker">znacznik</string>
+      <string id="three_image_items">elementów</string>
+      <string id="three_image_interaction_next">dalej</string>
+      <string id="three_image_pause_audio">wstrzymaj dźwięk</string>
+      <string id="three_image_pause_video">wstrzymaj film</string>
+      <string id="three_image_play_audio">odtwarzaj dźwięk</string>
+      <string id="three_image_play_video">odtwarzaj film</string>
+      <string id="three_image_interaction_prev">wstecz</string>
+      <string id="three_image_visited">odwiedzono</string>
+      <string id="three_image_of">z</string>
+      <string id="three_image_count_of_total">%count% z %total%</string>
+      <string id="acc_three_image_step_count_of_total">Krok %count% z %total%</string>
+      <string id="three_image_item">element</string>
+      <string id="three_image_interaction_step">krok</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">Punkty: %total%</string>
+      <string id="three_image_total_item">%total% punkt</string>
+      <string id="three_image_progress_video">postęp</string>
+      <string id="three_image_video">film</string>
+      <string id="three_image_video_volume">głośność filmu</string>
+      <string id="acc_three_image_count_of_total_items_visited">Odwiedzone punkty: %count% z %total%</string>
+      <string id="acc_three_image_count_of_total_item_visited">Odwiedzone punkty: %count% z %total%</string>
+      <string id="three_image_count_of_total_visited">Odwiedzono: %count% z %total%</string>
+      <string id="accessible_text">Dostępny tekst</string>
+      <string id="acc_enter_fullscreen">Przejdź do trybu pełnoekranowego</string>
+      <string id="acc_exit_fullscreen">Wyjdź z trybu pełnoekranowego</string>
+      <string id="keyboardshortcuts_lower">Skróty klawiaturowe</string>
+      <string id="zoom_to_fit">Powiększ, aby dopasować</string>
+      <string id="modern_video_settings_close">zamknij ustawienia filmu</string>
+      <string id="acc_modern_video_fullscreen">pełnoekranowy film</string>
+      <string id="modern_video_playback_settings">Ustawienia odtwarzania filmu</string>
+      <string id="modern_video_captions_off">Wył.</string>
+      <string id="modern_video_captions_on">Wł.</string>
+      <string id="modern_video_captions_label">Napisy</string>
+      <string id="acc_modern_video_settings">ustawienia filmu</string>
+      <string id="acc_modern_video_mute">wycisz film</string>
+      <string id="modern_video_normal_speed">normalna</string>
+      <string id="acc_modern_video_pause">wstrzymaj film</string>
+      <string id="acc_modern_video_pip">PiP</string>
+      <string id="acc_modern_video_play">odtwarzaj film</string>
+      <string id="modern_video_playback_speed_title">Szybkość odtwarzania</string>
+      <string id="acc_modern_video_captions">napisy filmu</string>
+      <string id="acc_modern_video_playback_speed">szybkość odtwarzania</string>
+      <string id="acc_modern_video_volume">głośność filmu</string>
+      <string id="acc_active">aktywny</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Zaznacz, aby uwzględnić</string>
+      <string id="clear">Wyczyść i wróć do menu</string>
+      <string id="close">Zamknij</string>
+      <string id="acc_closed_captions">Napisy. Naciśnij spację, aby wyświetlić lub ukryć napisy.</string>
+      <string id="closed_captions_tip">Włącz / Wyłącz napisy</string>
+      <string id="continue">Kontynuuj</string>
+      <string id="continueresponsive">Kontynuuj</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Włącz skróty klawiaturowe</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Wyjdź</string>
+      <string id="filter">Filtr</string>
+      <string id="finish">ZAKOŃCZ</string>
+      <string id="acc_finish">zakończ</string>
+      <string id="definition">Definicja</string>
+      <string id="acc_definition">definicja</string>
+      <string id="glossary">Słowniczek</string>
+      <string id="terms">Terminy</string>
+      <string id="progress_hour">godzina</string>
+      <string id="progress_hours">godziny</string>
+      <string id="action">Działanie</string>
+      <string id="keyboardshortcuts">Skróty klawiaturowe</string>
+      <string id="shortcuthelp">Lista skrótów klawiaturowych</string>
+      <string id="mute_shortcut">Włącz / Wyłącz wyciszenie</string>
+      <string id="next_shortcut">Następny slajd</string>
+      <string id="playpause_shortcut">Odtwarzaj / Wstrzymaj</string>
+      <string id="previous_shortcut">Poprzedni slajd</string>
+      <string id="replay_shortcut">Powtórz slajd</string>
+      <string id="shortcut">Skrót</string>
+      <string id="submit_shortcut">Wyślij slajd</string>
+      <string id="acctext_shortcut">Przełącz dostępny tekst</string>
+      <string id="closedcaptions_shortcut">Przełącz napisy (Closed Captions)</string>
+      <string id="fullscreen_shortcut">Przełączaj tryb pełnoekranowy</string>
+      <string id="togglezoom">Przełącz powiększenie, aby dopasować</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Obróć urządzenie</string>
+      <string id="progress_minute">minuta</string>
+      <string id="progress_minutes">minuty</string>
+      <string id="mute_tip">Wycisz</string>
+      <string id="next">DALEJ</string>
+      <string id="acc_next">dalej</string>
+      <string id="next_slide_tip">Następny slajd</string>
+      <string id="transcript_chk">Uwagi</string>
+      <string id="transcript">Uwagi</string>
+      <string id="bio">Dane biograficzne</string>
+      <string id="more_info">Więcej informacji</string>
+      <string id="closed_captions">Napisy</string>
+      <string id="acc_pause">wstrzymaj</string>
+      <string id="pause_tip">Wstrzymaj odwtarzanie</string>
+      <string id="acc_play">odtwórz</string>
+      <string id="play_tip">Odtwarzaj</string>
+      <string id="send_an_email">Wyślij e-mail</string>
+      <string id="prev">WSTECZ</string>
+      <string id="acc_previous">wstecz</string>
+      <string id="previous_slide_tip">Poprzedni slajd</string>
+      <string id="question_list">Lista pytań</string>
+      <string id="replay_tip">Odtwórz ponownie</string>
+      <string id="acc_replay">odtwórz ponownie</string>
+      <string id="resources">Zasoby</string>
+      <string id="acc_resources">zasoby</string>
+      <string id="restart">Uruchom ponownie</string>
+      <string id="resume">Wznów</string>
+      <string id="acc_locked">zablokowane</string>
+      <string id="acc_search_input">szukaj</string>
+      <string id="search_toggle">Szukaj</string>
+      <string id="sidebar_toggle">Włącz pasek boczny</string>
+      <string id="acc_slide_progress">postęp suwaka</string>
+      <string id="desktop_start">Zacznij kurs</string>
+      <string id="mobile_start">Zacznij kurs</string>
+      <string id="acc_visited">odwiedzono</string>
+      <string id="search">Szukaj...</string>
+      <string id="search_in">Szukaj w:</string>
+      <string id="search_results">Wyniki wyszukiwania</string>
+      <string id="progress_second">sekunda</string>
+      <string id="progress_seconds">sekundy</string>
+      <string id="settings_tip">Ustawienia</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Powrót do góry</string>
+      <string id="slide_text_chk">Tekst slajdu</string>
+      <string id="spacebar_key">Spacja</string>
+      <string id="submitall">WYŚLIJ WSZYSTKO</string>
+      <string id="acc_submitall">wyślij wszystko</string>
+      <string id="submit">WYŚLIJ</string>
+      <string id="acc_submit">wyślij</string>
+      <string id="submit_tip">Wyślij</string>
+      <string id="unmute_tip">Wyłącz wyciszenie</string>
+      <string id="acc_volume">głośność</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Poppins">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.5oy0MiY1onp" displaytext="Na start" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.5fvwzC29Byu.6q1pFrfKors" displaytext="Wprowadzenie" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.5xDnwRb00BC" displaytext="Instrukcja" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6QB61BQWzVr" displaytext="Różnorodność wokół mnie" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5fvwzC29Byu.5hmsi6uG24x" displaytext="Wprowadzenie" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.5VufBtZ4ylg" displaytext="Otwórz się na różnorodność" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.6CznIlbp4JW" displaytext="Jak się odnaleźć?" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.6Yoa4eLGyZj" displaytext="Nie wiem, co powiedzieć!" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.6GYiyCKYTNJ" displaytext="Dlaczego ludzie mówią niewłaściwe rzeczy?" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.5dbC9hArXUI" displaytext="Lepiej nic nie powiem…" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.6RAp1T3a6jH" displaytext="Różnorodna Polska" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.6QkMsy24TdH" displaytext="Autorefleksja" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.68qGxy9D07r" displaytext="Nieuświadomione uprzedzenia" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5fvwzC29Byu.65m6P3yVMLf" displaytext="Wprowadzenie" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.5lQWaVKfIwA" displaytext="Nieuświadomione uprzedzenia" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.6ZhBwLB1pGy" displaytext="Uprzedzenia a stereotypy" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.5zd3SBaoVJC" displaytext="Uprzedzenia a decyzje" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.6Ocm6PzlFJD" displaytext="Podsumowanie" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.6VCVkMhJJYK" displaytext="Jak się odnaleźć?" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6ksPkzDoLYq" displaytext="Mikroagresje" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5fvwzC29Byu.5f1AfhXOrs0" displaytext="Wprowadzenie" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.5yQcRH1aJTI" displaytext="Pod atakiem mikroagresji" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.6BqFYD5iLzp" displaytext="Mikroagresje" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.6Z09WOXo9he" displaytext="Konsekwencje" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.69SEYmIRZDq" displaytext="Atmosfera w pracy " expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.5kRH4sI3G5L" displaytext="Autorefleksja" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.63l2VAiRSnN" displaytext="Różnorodność i komunikacja" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5fvwzC29Byu.5kGgcqynWvv" displaytext="Wprowadzenie" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.6m6Am5IEwG5" displaytext="Co mówisz, co słyszę" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.6pASZj70oC3" displaytext="Pomyśl, zanim ocenisz" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.5WjVropYAp4" displaytext="Spotkania różnorodnych zespołów" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.5emyVOuE5L3" displaytext="Belonging, czyli przynależność " expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.6qrLWj8h4FO" displaytext="Autorefleksja" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.5texcYrNxX0" displaytext="Komunikacja inkluzywna" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.6ois8fX8aQi" displaytext="Różnice kulturowe" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.6fLEfbguGmy" displaytext="Autorefleksja" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5oOd0il2cbj" displaytext="Zakończenie" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.5fvwzC29Byu.6RVxXp4jtV5" displaytext="Quiz " expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.6VQbAdc9deA" displaytext="Autorefleksja" expand="false" type="slide" />
+            <slidelink slideid="_player.5fvwzC29Byu.5XEYnJXedZA" displaytext="Zakończenie" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="5fvwzC29Byu.6q1pFrfKors" slidebank="false" type="slide">rozpocznij szkolenie rozpocznij szkolenie rozpocznij szkolenie rozpocznij szkolenie rozpocznij szkolenie</slidetext>
+      <slidetext slideid="5fvwzC29Byu.5xDnwRb00BC" slidebank="false" type="slide">          po szkoleniu poruszaj się, klikając strzałki w przód lub w tył znajdujące się w prawym dolnym rogu playera. 4/4 okej, idę dalej okej, idę dalej okej, idę dalej okej, idę dalej okej, idę dalej po lewej stronie ekranu masz dostęp do spisu treści. możesz wybierać moduły szkolenia w dowolnej kolejności. znajduje się tam również słowczniczek pojęć wykorzystywanych w szkoleniu.  3/4                            dzięki temu szkoleniu: będziesz rozumieć, jakie zależności występują między różnorodnością, inkluzywnością i przynależnością; automatycznie wyłapiesz różne przejawy mikroagresji; świadomie spojrzysz na stereotypy i uprzedzenia; zwiększysz swój zestaw narzędzi do komunikacji w różnych sytuacjach.            2/4  witaj w szkoleniu dotyczącym różnorodności!składa się ono z 4 modułów: różnorodność wokół mnie nieuświadomione uprzedzenia mikroagresje różnorodność i komunikacja   przejdziesz je w około 45 minut.  1/4          rozpocznij szkolenie rozpocznij szkolenie rozpocznij szkolenie rozpocznij szkolenie rozpocznij szkolenie</slidetext>
+      <slidetext slideid="5fvwzC29Byu.5hmsi6uG24x" slidebank="false" type="slide">start start start start start różnorodność wokół mnie moduł 1</slidetext>
+      <slidetext slideid="5fvwzC29Byu.5VufBtZ4ylg" slidebank="false" type="slide">      to już wszystko? pamiętaj, że możesz wybrać trzy korzyści. na pewno nie chcesz czegoś dodać do swojej listy? chcę coś dodać chcę coś dodać chcę coś dodać chcę coś dodać chcę coś dodać     to już wszystko, idę dalej to już wszystko, idę dalej to już wszystko, idę dalej to już wszystko, idę dalej to już wszystko, idę dalej          trudno wybrać tylko trzy, tak? cieszymy się, że dostrzegasz tak dużo korzyści w otwarciu się na różnorodność.  chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie     okej, idę dalej okej, idę dalej okej, idę dalej okej, idę dalej okej, idę dalej          doskonale! cieszymy się, że dostrzegasz korzyści w otwarciu się na różnorodność.  życzymy, aby wszystkie, które wybrałeś/łaś były widoczne w twoim życiu.  chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie okej, idę dalej okej, idę dalej okej, idę dalej okej, idę dalej okej, idę dalej        otwórz się na różnorodność jakie korzyści może nam przynieść częste przebywanie w różnorodnym środowisku?  szybsze rozwiązywanie problemów  okazja do rozwoju i nauki  jawne prezentowanie własnych przekonań  wyjście poza strefę komfortu  przyjazne środowisko pracy  głębsze relacje z ludźmi dobre relacje z innymi  nowe doświadczenia i inspiracje  poszerzenie horyzontów zgrane, wspierające się zespoły  możliwość bycia sobą rozwój empatii, szacunku  3 korzyści ważne dla mnie gotowe gotowe gotowe gotowe gotowe wybierz trzy, które osobiście uważasz za ważne i przeciągnij je w puste pole z prawej strony ekranu.   instrukcja            </slidetext>
+      <slidetext slideid="5fvwzC29Byu.6CznIlbp4JW" slidebank="false" type="slide">  jak się w tym odnaleźć? jak się odnaleźć? tylko… widzę korzyści, </slidetext>
+      <slidetext slideid="5fvwzC29Byu.6Yoa4eLGyZj" slidebank="false" type="slide"> jak się zachować? do zespołu, w którym pracujesz, dołączyła ostatnio ania. jest księgową. porusza się na wózku. nigdy wcześniej nie pracowałeś/aś z osobą z niepełnosprawnością.  możesz czuć się niepewnie,nie wiedząc, jak się zachować…  czy mam oferować pomoc przy windzie albo na schodach? firmowe kręgle… zapraszać? nie zapraszać? jak zapraszać?  czy mogę zapytać, dlaczego jest na wózku?  czy opowiadać przy niej, że uprawiam jogging?    </slidetext>
+      <slidetext slideid="5fvwzC29Byu.6DShAaDzudc" slidebank="false" type="slide">integruj podejmuj próby włączenia osób z niepełnosprawnościami do normalnego, formalnego i nieformalnego funkcjonowania firmy. błędem byłby brak zaproszenia na firmowe kręgle. powiedz: “masz ochotę spotkać się z nami wieczorem w kręgielni? będziemożna pogadać, lepiej się poznać, napić piwa…” o nieformalnych relacjach powinny decydować zwykłe ludzkie sympatie lub antypatie, zupełnie niezwiązane ze sprawnością fizyczną.      postępuj taktownie otwarcie przyznaj się do braku wiedzy na temat potrzeb drugiej strony i poproś o wskazówki. jeśli wyczujesz, że czujecie się ze sobą komfortowo i możesz ją zapytać o jej niepełnosprawność, zrób to.  dla osoby z niepełnosprawnością to codzienność i można o niej rozmawiać tak, jak na każdy inny temat, stosując takie same granice intymności, jak w przypadku każdego innego tematu osobistego.       rozmowa na spokojnie, bez świadków, zapytaj, w jaki sposób możesz jej pomóc, by się nie narzucać.   rozmawiając z osobą poruszającą się na wózku, utrzymuj kontakt wzrokowy na zbliżonym poziomie (możesz usiąść zamiast stać). to zwiększy komfort rozmowy.       jak się zachować? to naturalne, że po raz pierwszy stykając się z innością, możesz czuć się niepewnie.  rozmawiaj              postępuj taktownie                   integruj              kliknij aktywne ikony, aby poznać kilka rad na początek.  instrukcja            </slidetext>
+      <slidetext slideid="5fvwzC29Byu.5cWPi5X15qG" slidebank="false" type="slide">        nie narzucaj się z pomocą  nie podejmuj też decyzji za inne osoby, tylko dlatego, że mają jakąś niepełnosprawność. jest różnica między wspieraniem a wyręczaniem.        chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie okej, idę dalej okej, idę dalej okej, idę dalej okej, idę dalej okej, idę dalej          masz rację! nie narzucaj się z pomocą i nie podejmuj decyzji za inne osoby, tylko dlatego, że mają jakąś niepełnosprawność. jest różnica między wspieraniem a wyręczaniem.  chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie rozumiem, idę dalej rozumiem, idę dalej rozumiem, idę dalej rozumiem, idę dalej rozumiem, idę dalej                    instrukcja zaznacz wybraną sytuacje. następnie kliknij przycisk sprawdzam. które z poniższych zachowań wobec osoby poruszającej się na wózku inwalidzkim jest bardziej stosowne? jak się zachować? wybrałam ci obiad, żebyś nie musiała męczyć się po drodze do stołówki. mam nadzieję, że lubisz ten zestaw?  sytuacja 1 sytuacja 1 sytuacja 1 idę do stołówki po lunch.czy mogę ci coś wziąć?  sytuacja 2 sytuacja 2 sytuacja 2 sprawdzam sprawdzam sprawdzam sprawdzam sprawdzam</slidetext>
+      <slidetext slideid="5fvwzC29Byu.5eecADyFzX1" slidebank="false" type="slide">czego nie powinna robić kinga? nie może wyśmiewać, obmawiać, dyskryminować.  nie może moralizować, pouczać, „nawracać”.       co powinna zrobić kinga? może porozmawiać z ewą i szczerze wyjaśnić jej, dlaczego nie chce/nie lubi/ nie ma czasu angażować się w akcje, na które ewa ją zaprasza. może okazać jej zrozumienie, otwarcie porozmawiać z nią na tematy, które sądla ewy ważne, okazać zainteresowanie.       ewa, koleżanka z zespołu kingi, w bardzo otwarty sposób wypowiada się na temat swojej orientacji seksualnej i przynależności do społeczności lgbt, zarówno w pracy, jak i prywatnie, w social mediach. często zaprasza kolegów i koleżanki z pracy do brania udziału w akcjach i kampaniach organizowanych przez jej znajomych, aktywistów. kinga nie ma na to czasu ani ochoty, ale boi się, że ciągle odmawiając, zostanie posądzona o bycie uprzedzoną. co mówić, czego nie mówić: przykład kliknij w aktywne ikony, aby dowiedzieć się co kinga powinna zrobić, a czego nie. instrukcja             co robić? co robić?                                czego nie robić? czego nie robić?</slidetext>
+      <slidetext slideid="5fvwzC29Byu.6GYiyCKYTNJ" slidebank="false" type="slide">mała ekspozycja na różnorodność jeśli obracamy się w jednorodnym środowisku, gdzie wszyscy wyglądają podobnie, mówią w podobnym języku, dzielą nasze poglądy, kulturę i tradycję, możemy (intencjonalnie lub nie) niewłaściwie zareagować na różnorodność. częsta ekspozycja na różnorodność wiele nas uczy.        uprzedzenia jeśli pozwolimy, by stereotypy wpływały na to, jak postrzegamy osoby, które różnią się od nas, może nam się zdarzyć mówienie niewłaściwych rzeczy.        uprzywilejowanie jeśli my nie mamy jakichś problemów/ograniczeń, możemy nie zauważyć, z czym zmagają się inni. filtrujemy świat przez siebie, nasze środowisko, kulturę. nie przychodzi nam do głowy, że ktoś może widzieć coś inaczej.       zakłopotanie spotykając się pierwszy raz z innością, czujemy się skrępowani. to może powodować, że powiemy lub zachowamy się w sposób nie do końca właściwy. musimy przejść przez tę fazę, oswoić ją, by czuć się swobodniej.  zakłopotanie spotykając się pierwszy raz z innością, czujemy się skrępowani. to może powodować, że powiemy lub zachowamy się w sposób nie do końca właściwy. musimy przejść przez tę fazę, oswoić ją, by czuć się swobodniej.  zakłopotanie spotykając się pierwszy raz z innością, czujemy się skrępowani. to może powodować, że powiemy lub zachowamy się w sposób nie do końca właściwy. musimy przejść przez tę fazę, oswoić ją, by czuć się swobodniej.       dlaczego ludzie mówią niewłaściwe rzeczy? czy zdarzyło ci się kiedyś “palnąć gafę”? powiedzieć coś niestosownego do osoby, w której dostrzegłeś/łaś jakąś “inność”? powody takich sytuacji mogą być różne.      zakłopotanie zakłopotanie   uprzywilejowanie uprzywilejowanie       uprzedzenia uprzedzenia         mała ekspozycjana różnorodność mała ekspozycjana różnorodność kliknij w aktywne grafiki, aby je lepiej poznać.  instrukcja            </slidetext>
+      <slidetext slideid="5fvwzC29Byu.5dbC9hArXUI" slidebank="false" type="slide">nasza rada powiedz szczerze o swoich odczuciach:„nigdy wcześniej nie spotkałem/am osoby z niepełnosprawnością, nie wiedziałem/am, co mogę mówić, a co nie. nie chciałem/am cię urazić, więc udawałem/am, że nic nie widzę.” nie mając wiele styczności z różnorodnością, przechodzimy fazę skrępowania za każdym razem, gdy się z nią spotykamy. to naturalne. aby pozbyć się skrępowania – wchodź w interakcję, poznawaj. to najlepszy sposób, aby nauczyć się reagować na różnorodność w sposób naturalny.       lepiej nic nie powiem… często, bojąc się, że powiemy coś niewłaściwego, nie mówimy nic. celowo i konsekwentnie ignorujemy temat. to nie jest dobre rozwiązanie. konsekwentnie unikając tematu, także wysyłasz jakąś informację. nie chodzi o to, by nic nie mówić, ale by wiedzieć, co powiedzieć.   niewygodnie mi tutaj przez tę moją nogę. nogę? jakoś nie zauważyłem… to znaczy…    kliknij w aktywny przycisk, aby zapoznać się z radą. instrukcja             przeczytaj radę             przeczytaj radę             przeczytaj radę             przeczytaj radę             przeczytaj radę               przeczytaj radę</slidetext>
+      <slidetext slideid="5fvwzC29Byu.6RAp1T3a6jH" slidebank="false" type="slide">według badania dalia research przeprowadzonego w kilku krajach europy, w polsce około 5% osób identyfikuje się jako lgbt, przy czym dla osób w wieku 14–29 lat jest to ok. 10%, dla osób w wieku 30-49 – 1%, a dla osób w wieku 50-65 – 4%. około 60% osób w polsce mieszka w miastach, a około 40% na wsi. miasta małe, do 20 tys. mieszkańców, zamieszkuje 13% osób, z kolei miasta średnie – 27%.  obok ciebie żyją osoby z autyzmem, adhd, osoby cierpiące na choroby psychiczne i zmagające się z różnymi zaburzeniami.  w polsce występują następujące rodzaje religii: chrześcijaństwo (katolicyzm, prawosławie, protestantyzm i inne), islam, judaizm, buddyzm, pogaństwo i neopogaństwo. wiele osób deklaruje się jako osoby bezwyz-naniowe, agnostycy lub ateiści.  według danych bael (badanie aktywności ekonomicznej ludności) liczba osób z niepełnosprawnością w wieku 16 lat i więcej w 2018 roku kształtowała się na poziomie 3,0 mln osób (dokładnie 3 040 tys.). oznacza to, że 10,0% ludności w wieku 15 lati więcej posiadało prawne orzeczenie niepełnosprawności. wśród cudzoziemców mieszkających w polsce największą grupę stanowią obywatele, kolejno: ukrainy, białorusi, niemiec, rosji, wietnamu, indii, włoch, gruzji, chin i wielkiej brytanii.  obok ciebie żyją single, wdowcy/wdowy, rozwodnicy/rozwódki, osoby samotnie wychowujące dzieci, wielodzietne, bezdzietne, osoby tworzące rodziny patchworkowe, zwolennicy różnych partii, liberałowie, konserwatyści etc.  ważne zezwolenia na pobyt w polsce posiada obecnie (2022 rok) prawie 460 tys. cudzoziemców. w ubiegłym roku liczba ta wzrosła o nieco ponad 34 tys. osób.  różnorodna polska polska pozornie może wydawać się krajem nieróżnorodnym. ale gdy przyjrzymy się bliżej…   upuść lupę na oznaczone karteczki. instrukcja                                    </slidetext>
+      <slidetext slideid="5fvwzC29Byu.6QkMsy24TdH" slidebank="false" type="slide">podsumowanie stykanie się z różnorodnością wywołuje w tobie sporo niepewności. być może nie miałeś/aś jeszcze zbyt wielu okazji, aby doświadczyć jej w swoim otoczeniu. to naturalne. aby pozbyć się skrępowania, otwórz się na poznawanie i interakcję z osobami, które różnią się od ciebie. zobaczysz: szybko przekonasz się, że różnice często są powierzchowne, a tak naprawdę wiele nas ze sobą łączy.   trzymamy kciuki! są obszary, w których czujesz się pewniej i takie, które wzbudzają w tobie pewien dyskomfort. to naturalne. każdy z nas oswaja się z różnorodnością w swoim tempie, wszystko zależy też od tego, w jakim stopniu nas ona otacza. rozejrzyj się. otwórz na poznawanie różnorodności wokół ciebie. zobaczysz, jak wiele będziesz się mógł/mogła nauczyć. jesteś na dobrej drodze!  bardzo dobry wynik! wygląda na to, że obcowanie z różnorodnością nie budzi w tobie wiele niepewności.  bądź animatorem otwartości i inkluzywnej komunikacji. masz kompetencje do tego, by świadomie działać na rzecz przełamywania barier i burzenia mostów. może obok ciebie jest ktoś, kto potrzebuje wsparcia w tym obszarze? rozejrzyj się i działaj!  stykanie się z różnorodnością wywołuje w tobie sporo niepewności. być może nie miałeś/aś jeszcze zbyt wielu okazji, aby doświadczyć jej w swoim otoczeniu. to naturalne. aby pozbyć się skrępowania, otwórz się na poznawanie i interakcję z osobami, które różnią się od ciebie. zobaczysz: szybko przekonasz się, że różnice często są powierzchowne, a tak naprawdę wiele nas ze sobą łączy.   trzymamy kciuki! chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie okej, idę dalej okej, idę dalej okej, idę dalej okej, idę dalej okej, idę dalej 10/10 2 2 2 1 1 1 0 0 0 dalej dalej dalej dalej dalej czuję się pewnie, nie widzę problemu zupełnie nie wiem, jak się zachować do twojego projektu przydzielona zostaje kobieta pochodząca z iraku, która na co dzień nosi hidżab. 9/10 2 2 2 1 1 1 0 0 0 dalej dalej dalej dalej dalej czuję się pewnie, nie widzę problemu zupełnie nie wiem, jak się zachować twoim szefem jest dużo młodszy od ciebie mężczyzna.  8/10 2 2 2 1 1 1 0 0 0 dalej dalej dalej dalej dalej czuję się pewnie, nie widzę problemu zupełnie nie wiem, jak się zachować agent nieruchomości, z którym się spotykasz w celu sprzedaży mieszkania, nie ma jednej ręki.  7/10 2 2 2 1 1 1 0 0 0 dalej dalej dalej dalej dalej czuję się pewnie, nie widzę problemu zupełnie nie wiem, jak się zachować osoba, z którą umówiłeś/aś się na pierwszą randkę, mówi ci, że jest w spektrum autyzmu.  6/10 2 2 2 1 1 1 0 0 0 dalej dalej dalej dalej dalej czuję się pewnie, nie widzę problemu zupełnie nie wiem, jak się zachować twoja nowa szefowa pochodzi z ukrainy, przyjechała do polski, uciekając przed wojną. 5/10 2 2 2 1 1 1 0 0 0 dalej dalej dalej dalej dalej czuję się pewnie, nie widzę problemu zupełnie nie wiem, jak się zachować do mieszkania obok wprowadza się czarnoskóra rodzina. 4/10 2 2 2 1 1 1 0 0 0 dalej dalej dalej dalej dalej czuję się pewnie, nie widzę problemu zupełnie nie wiem, jak się zachować szukasz nowych najemców swojego mieszkania. zgłasza się transseksualna kobieta ze swoją partnerką. 3/10 2 2 2 1 1 1 0 0 0 dalej dalej dalej dalej dalej czuję się pewnie, nie widzę problemu zupełnie nie wiem, jak się zachować bierzesz udział w szkoleniu, podczas którego połączono uczestników w pary, którym przydzielono różne zadania. twoją parą jest niskorosła kobieta. 2/10 2 2 2 1 1 1 0 0 0 dalej czuję się pewnie, nie widzę problemu zupełnie nie wiem, jak się zachować twój kolega z pracy jest osobą homoseksualną, często opowiada ci o swoim partnerze. twoja koleżanka wychodzi za mąż za hindusa, który nie mówi po polsku. zapraszają cię na kolację. zupełnie nie wiem, jak się zachować czuję się pewnie, nie widzę problemu dalej dalej dalej dalej dalej 0 0 0 1 1 1 2 2 2 1/10 autorefleksja na ile swobodnie czujesz się w różnorodnym środowisku?  odpowiedz na poniższe pytania, zaznaczając właściwą wartość: gdzie „0” oznacza – zupełnie nie wiem, jak się zachować, „1” – czuję się trochę niepewnie, a „2” – czuję się pewnie, nie widzę problemu.test jest tylko dla ciebie. możesz przejść go wielokrotnie.  instrukcja             chcę ominąć test chcę ominąć test chcę ominąć test chcę ominąć test chcę ominąć test</slidetext>
+      <slidetext slideid="5fvwzC29Byu.65m6P3yVMLf" slidebank="false" type="slide">start start start start start nieuświadomione uprzedzenia moduł 2</slidetext>
+      <slidetext slideid="5fvwzC29Byu.5lQWaVKfIwA" slidebank="false" type="slide">jasiek urodzony w polsce. jego tata pochodzi z kamerunu, ale jasiek jeszcze tam nie był. studiuje prawo, gra na akordeonie.      a teraz poznaj je lepiej. kliknij w każdą z grafik.  instrukcja              tomasz właściciel dużej firmy it, zatrudnia 200 pracowników. żonaty, ma jedno dziecko. po pracy pędzi na budowę swojego nowego domu, lubi pewne rzeczy zrobić tam sam.      a teraz poznaj je lepiej. kliknij w każdą z grafik.  instrukcja              maciek tworzy z żoną rodzinę zastępczą  dla ośmiorga dzieci. jest trenerem osiedlowej drużyny footballowej.      a teraz poznaj je lepiej. kliknij w każdą z grafik.  instrukcja              anka świetnie śpiewa, komponuje, gra na gitarze i fortepianie. jej największym sukcesem jest występ na znanym festiwalu rockowym. tłum oszalał!     a teraz poznaj je lepiej. kliknij w każdą z grafik.  instrukcja              pani helena od 10 lat na emeryturze. szydełkuje, chodzi po górach i tańczy tango. dwadzieścia lat mieszkała w wielkiej brytanii, mówi biegle po angielsku i hiszpańsku. agnostyczka.      a teraz poznaj je lepiej. kliknij w każdą z grafik.  instrukcja              a teraz poznaj je lepiej. kliknij w każdą z grafik.  instrukcja                       nieuświadomione uprzedzenia, czyli mózg idzie na skróty  nieuświadomione uprzedzenia często wynikają z faktu, że nasz mózg „idzie na skróty”. popatrz na ilustracje. zastanów się, jakie cechy możesz być skłonny/a automatycznie przypisać tym osobom? już wiem już wiem już wiem już wiem już wiem</slidetext>
+      <slidetext slideid="5fvwzC29Byu.6ZhBwLB1pGy" slidebank="false" type="slide">kobiety lepiej sprawdzają się jako opiekunki domowego ogniska niż jako szefowe w firmach. kobieta moim nowym szefem? przecież ona tego nie ogarnie, już widzę ten chaos.  uprzedzenia to: nasze błędy poznawcze, które pojawiają się w procesie przetwarzania informacji na temat innych osób. przykład przykład przykład przykład przykład stereotypy to: generalizacja, uogólnienie, na podstawie którego przypisujemy osobom lub grupom określony zestaw cech i zachowań.  przykład przykład przykład przykład przykład uprzedzenia a stereotypy przeczytaj definicje, a następnie kliknij w przyciski pod nimi, aby zobaczyć przykłady.  instrukcja            </slidetext>
+      <slidetext slideid="5fvwzC29Byu.5zd3SBaoVJC" slidebank="false" type="slide">nie wybrał żadnej z aplikujących osób spoza europy, bo założył, że trudniej mu się będzie z nimi dogadać.       nie wybrał żadnej z innych aplikujących kobiet, bo założył, że to pewnie matki, które mają na głowie dzieci i dom, więc będą mniej kreatywne.       nie wybrał żadnej z aplikujących osób 45+, bo założył, że pewnie słabiej podążają za innowacjami.       uprzedzenia a decyzje karol jest menadżerem w międzynarodowej firmie, któremu powierzono stworzenie zespołu projektowego odpowiedzialnego za innowacje produktowe. miał pełną decyzyjność w doborze członków zespołu. kierując się swoją wiedzą i doświadczeniem, wybrał 10 osób z europy, z którymi dotychczas pracował lub którzy zostali mu poleceni.  rezultat? zespół złożony z 8 białych mężczyzn w wieku 30-45 lat, z odpowiednim doświadczeniem oraz 2 trzydziestoletnich kobiet, singielek.  karol nie uważa, że kierował się uprzedzeniami, ale kliknij w cv leżące na biurku i zobacz kogo odrzucił. instrukcja                  </slidetext>
+      <slidetext slideid="5fvwzC29Byu.6Ocm6PzlFJD" slidebank="false" type="slide">nasz umysł często kategoryzuje ludzi. podświadome procesy w mózgu przejmują wiele naszych myśli i zachowań.  jest to jeden z naturalnych elementów funkcji poznawczej człowieka i sposób na radzenie sobie z natłokiem informacji.  posiadając tę wiedzę, możesz świadomie dbać o to, żeby podejmowane decyzje i osądy pomagały w budowaniu różnorodnego i włączającego środowiska pracy.  podsumowanie</slidetext>
+      <slidetext slideid="5fvwzC29Byu.6VCVkMhJJYK" slidebank="false" type="slide"> autorefleksja zastanów się, jak często twój mózg idzie na skróty, oceniając innych? jak często generuje nieuświadomione uprzedzenia?pierwszy krok to uświadomić sobie, że to się czasem dzieje. czy okazuję zrozumienie dla innej kultury, zwyczajów, religii, poglądów, wartości? czy odstawiam na bok pierwsze wrażenia/skojarzenia/stereotypy, jeśli wiem, że są krzywdzące? czy wchodzę z otwartą głową w nowe relacje, przyjaźnie ?  czy jest we mnie empatia wobec osób, które się ode mnie różnią?</slidetext>
+      <slidetext slideid="5fvwzC29Byu.5f1AfhXOrs0" slidebank="false" type="slide">start start start start start mikroagresje moduł 3</slidetext>
+      <slidetext slideid="5fvwzC29Byu.5yQcRH1aJTI" slidebank="false" type="slide">pojedyncze komentarze wynikające z uprzedzeń mogą wydawać się nieszkodliwe, ale jeśli ktoś otrzymuje je cały czas, zaczynają działać niszcząco. zaczyna wtedy uświadamiać sobie, że nieważne jak i co zrobi, ludziezawsze będą patrzeć na niego/nią w określony sposób… ty to na informatyce pewnie na piękne oczy wszystko zdawałaś?   drobne ataki to nasz nowy developer. da się nawet na wózku? da się!   jejku, mogę dotknąć twoich włosów?  </slidetext>
+      <slidetext slideid="5fvwzC29Byu.6BqFYD5iLzp" slidebank="false" type="slide">co powinien zrobić jan? poprosić kolegów o rozmowę. wyraźnie opisać, jakie ich zachowania są dla niego nieakceptowalne. powiedzieć o skutkach („czuję się obrażany”). powiedzieć o wszystkim spokojnie, unikać obraźliwych słów, ostrej konfrontacji.  jeśli rozmowa nie przyniesie efektów,zwrócić się do przełożonego.       co powinna zrobić maria? wybrać odpowiedni czas i miejsce i porozmawiać z kolegami na temat ich zachowania.  przygotować się do spotkania, dokładnie przemyśleć, co powiedzieć.  przytoczyć przykłady zachowań i wyjaśnić, dlaczego są nieakceptowalne.  wyraźnie poprosić o zmianę zachowania.      w ostatnim czasie do zespołu marii dołączył mężczyzna, który pochodzi z ukrainy. mówi płynnie po polsku, ze wschodnim akcentem. michał, jeden z członków zespołu, zaczął żartobliwie zwracać się do jana, naśladując jego akcent… po kilku dniach dołączyło do niego kilka innych osób… mikroagresje: przykład  kliknij w aktywne ikony, aby dowiedzieć się co powinni zrobić marta i jan. instrukcja             co powinna zrobić maria? co powinna zrobić maria?                                          co powinien zrobić jan? co powinien zrobić jan?</slidetext>
+      <slidetext slideid="5fvwzC29Byu.6Z09WOXo9he" slidebank="false" type="slide"> duża rotacja  zła atmosfera w pracy   poczucie wykluczenia  zła opinia o firmie   słabsza jakość, gorsze wyniki   poczucie krzywdy, niesprawiedliwości   plotki, obgadywanie   gorsza produktywność   depresje, załamania               instrukcja potrząśnij puszką i zobacz skutki. konsekwencje mikroagresje wpływają na osobę, która ich doznaje, ale także na zespół, atmosferę w firmie. pomyśl: jakie konsekwencje mogą mieć mikroagresje w twoim zespole? czy się zdarzają? czy wiesz, jak im zapobiegać?   </slidetext>
+      <slidetext slideid="5fvwzC29Byu.69SEYmIRZDq" slidebank="false" type="slide">chętniej angażujesz się w pracę; starasz się lepiej realizować swoje zadania, aby inni widzieli twój wkład; troszczysz się o wynik całego zespołu; masz mniej obaw związanych z wypowiadaniem się na różne tematy, rzucaniem pomysłów. masz większą otwartość na dzielenie się różnymi pomysłami; zależy ci na dobrym imieniu firmy, w której pracujesz i na jej wynikach; atmosfera w pracy  atmosfera w pracy wpływa na naszą produktywność, zaangażowanie i samopoczucie.  w zespole, w którym czujesz się dobrze i masz pełne przyzwolenie na bycie sobą: </slidetext>
+      <slidetext slideid="5fvwzC29Byu.5kRH4sI3G5L" slidebank="false" type="slide"> autorefleksja zastanów się, czy… zdarza ci się rzucać komentarze mające znamiona mikroagresji? jeśli tak: czy widzisz, jak mogą się czuć osoby, które słyszą podobne komentarze ciągle? czy potrafisz się powstrzymać, mając na uwadze uczucia innych? zdarza ci się słyszeć komentarze mające znamiona mikroagresji wobec siebie lub kogoś, kto z tobą pracuje? czy potrafisz je rozpoznać? czy potrafisz na nie zareagować?  </slidetext>
+      <slidetext slideid="5fvwzC29Byu.5kGgcqynWvv" slidebank="false" type="slide">start start start start start różnorodność i komunikacja moduł 4</slidetext>
+      <slidetext slideid="5fvwzC29Byu.6Qwd6EtFw6U" slidebank="false" type="slide">nasza rada komplementy dotyczące wyglądu zostawiamy dla rodziny i przyjaciół.  komentarze dotyczące wyglądu, nawet te pozytywne, mogą być odebrane jako nietaktowne i uznajemy je za niestosowne. zwłaszcza jeśli wypowiada je szef wobec podwładnej. w pracy chwalimy obszary zawodowe.      różnorodnośći komunikacja: przykład 1 maja niedawno zaczęła pracę w nowej firmie. dziś, kiedy przyszła na poranne spotkanie, na którym byli prawie sami mężczyźni, jej bezpośredni przełożony, tomek, przywitał się z nią z uśmiechemi powiedział: „o, jak ładnie dziś wyglądasz!”. maja poczuła się zażenowana takim komentarzem. czy miała rację?  kliknij w aktywny przycisk, zobaczyć radę dla tomek. instrukcja             rada dla tomka             rada dla tomka             rada dla tomka             rada dla tomka             rada dla tomka               rada dla tomka</slidetext>
+      <slidetext slideid="5fvwzC29Byu.6LchV2hmZSK" slidebank="false" type="slide">co muszą wiedzieć jej koledzy? wiara może wpływać na podstawę kształtowania poglądów na świat, kwestie etyczne i moralne.  w pracy najlepiej tego tematu nie podejmować – bez względu na to, czy jest się wierzącym, czy nie. nawet jeśli w pracy panują bardzo swobodne i przyjazne relacje, trzeba mieć na uwadze, że istnieją tematy wywołujące duże emocje. żarty z nich mogą popsuć atmosferę w zespole i sprawić, że ktoś poczuje się wykluczony.       co może zrobić zosia? rozmowa i jeszcze raz rozmowa. jeśli relacje w firmie są przyjacielskie, koledzy i koleżanki powinni wykazać się zrozumieniem. unikaj ostrej konfrontacji, oskarżeń. przyjmij spokojny ton. rzeczowo wyjaśnij, dlaczego niektóre żarty sprawiają ci przykrość i poproś o unikanie ich w twojej obecności.       różnorodnośći komunikacja: przykład 2 zosia pracuje w niedużej firmie, w której panują bardzo miłe i przyjacielskie relacje. spotkania przebiegają zwykle w swobodnej atmosferze i często pojawiają się żarty. jednym z częstych tematów żartów jest religia. zosia jest osobą bardzo wierzącąi te żarty sprawiają jej przykrość. kliknij w aktywny przycisk, zobaczyć wkazówki dla zosi i jej kolegów. instrukcja             co możezrobić zosia? co możezrobić zosia?                                                                                                                               co muszą wiedzieć jej koledzy?  co muszą wiedzieć jej koledzy? </slidetext>
+      <slidetext slideid="5fvwzC29Byu.6m6Am5IEwG5" slidebank="false" type="slide">aktywne słuchanie empatia otwartość na inne perspektywy wiedza na temat różnorodności  co mówisz, co słyszę pochodzimy z różnych środowisk, mamyróżne życiowe doświadczenia i cechy, które wpływają na nasze postrzeganie świata. dlatego, chcąc budować środowisko pracy, w którym każdy czuje się dobrze, musimy codziennie świadomie pracować nad relacjami z ludźmi, którzy nas otaczają. zobacz co jest ważne.  czy znajdujesz te cechy u siebie? czy znajdujesz je u swoich współpracowników?</slidetext>
+      <slidetext slideid="5fvwzC29Byu.6pASZj70oC3" slidebank="false" type="slide">zanim powiesz.. pomyśl okaż zrozumienie  co za gbur.  dwóch słów nie da się z nim zamienić…  może jest nieśmiały? może jest introwertykiem? może przechodzi przez trudny okres? może jest w spektrum autyzmu?</slidetext>
+      <slidetext slideid="5fvwzC29Byu.6VG38AgW7fH" slidebank="false" type="slide">wskazówka dla magdy introwertycy mogą zwyczajnie nie lubić rozmów w windzie.  różnorodność w zachowaniu i stylu bycia każdej osoby wynika z jej unikalnego doświadczenia oraz otoczenia.  jeśli czujesz się niekomfortowo, przyjaźnie zapytaj, dlaczego kolega unika rozmowy z tobą. nie wywieraj na niego presji.       pomyśl, zanim ocenisz: przykład 1 magda spotyka w windzie nowego kolegę z pracy, antka. swoim zwyczajem opowiada mu żywiołowo o sobie, jednak antek nie wykazuje większego zainteresowania rozmową, unika kontaktu wzrokowegoi odpowiada półsłówkami. magda od razu uznaje go za gbura. kliknij w aktywny przycisk, zobaczyć wskazówki dla magdy. instrukcja             wskazówki dla magdy             wskazówki dla magdy             wskazówki dla magdy             wskazówki dla magdy             wskazówki dla magdy               wskazówki dla magdy</slidetext>
+      <slidetext slideid="5fvwzC29Byu.6hdPUteNvRB" slidebank="false" type="slide">wskazówka dla antka zareaguj i wyznacz swoje granice. w przypadku reakcji na forum, rekomendujemy raczej żartobliwą odpowiedź.  jeżeli komentarze rzucane przez kolegów powtarzają się, porozmawiaj z nimi na ten temat na osobności. załóż dobre intencje osoby komentującej, może w ten nieumiejętny sposób chce nawiązać z tobą przyjazną relację?  zapytaj: „co masz na myśli?”      pomyśl, zanim ocenisz: przykład 2 antek dobrze radzi sobie z nowymi obowiązkami w pracy, ale faktycznie interakcje społeczne nie są jego najmocniejszą stroną. nie lubi odzywaćsię podczas oficjalnych i nieoficjalnych spotkań, zauważa też, że niektórzy coraz częściej zaczynają to komentować.  kliknij w aktywny przycisk, zobaczyć wskazówki dla antka. instrukcja             wskazówki dla antka             wskazówki dla antka             wskazówki dla antka             wskazówki dla antka             wskazówki dla antka               wskazówki dla antka</slidetext>
+      <slidetext slideid="5fvwzC29Byu.5WjVropYAp4" slidebank="false" type="slide">dyskutuj w oparciu o argumenty, a nie emocje.        unikaj krytykowania, oceniania, grożenia, rozkazywania. nie wyśmiewaj.    okazuj szacunek dla zdania innych osób, ich sposobu wyrażania się czy osobowości.   stosuj parafrazę, aby upewnić się, że dobrze rozumiesz drugą stronę. („czyli chciałeś powiedzieć, że…?)     zadawaj pytania. jeśli czegoś nie rozumiesz, zadawaj kolejne.          zadbaj o komfort każdego z nas, nie przerywaj, nie podnoś głosu.             instrukcja kliknij w grafikę każdej z osób, aby zebrać listę rad dotyczących spotkań.  spotkania różnorodnych zespołów                                                                              </slidetext>
+      <slidetext slideid="5fvwzC29Byu.5emyVOuE5L3" slidebank="false" type="slide">odnosi się do indywidualnego odczucia, że jest się częścią grupy.  przynależność/belonging odnosi się do zachowań i norm kulturowych, które sprawiają, że ludzie czują się mile widziani. integracja/inkluzywność belonging, czyli przynależność  przeciągnij aktywny przycisk na kolejne punkty, aby przypomnieć sobie zależność między różnorodnością, integracją i przynależnością.  instrukcja                            odnosi się do cech, które sprawiają, że ludzie są wyjątkowi.  różnorodność</slidetext>
+      <slidetext slideid="5fvwzC29Byu.6qrLWj8h4FO" slidebank="false" type="slide">podsumowanie w pracy odczuwasz zagubienie. otoczenie, przełożony, a może rola, którą pełnisz, powodują, że nie czujesz się dobrze w organizacji, w której pracujesz.  zastanów się, czy masz wpływ na obszary, które powodują twój dyskomfort. na pewno w twojej organizacji jest ktoś, z kim mógłbyś/mogłabyś o nich porozmawiać. przygotuj się do takiej rozmowy. określ, czego oczekujesz. pamiętaj, że wiele rzeczy możemy zmienić. życzymy ci powodzenia! są obszary związane z twoją pracą, w których czujesz się dobrze i takie, które nie są wystarczająco zaopiekowane. zastanów się, z czego to wynika: czy chodzi o zespół, przełożonego czy rodzaj obowiązków? pomyśl, z kim mógłbyś/mogłabyś o tym porozmawiać. zawalcz o swoją zawodową satysfakcję, powiedz, czego oczekujesz i zbadaj, czy możesz to dostać. życzymy powodzenia! bardzo dobry wynik! wygląda na to, że dobrze się czujesz w swojej firmie, a rola którą pełnisz ci odpowiada. to świetnie. rozejrzyj się wokoł siebie: czy wszyscy w twoim zespole czują się podobnie? może ktoś potrzebuje wspacia, czuje się wykluczony lub niepewny w swojej roli? może będziesz potrafić mu pomóc? życzymy powodzenia! w pracy odczuwasz zagubienie. otoczenie, przełożony, a może rola, którą pełnisz, powodują, że nie czujesz się dobrze w organizacji, w której pracujesz.  zastanów się, czy masz wpływ na obszary, które powodują twój dyskomfort. na pewno w twojej organizacji jest ktoś, z kim mógłbyś/mogłabyś o nich porozmawiać. przygotuj się do takiej rozmowy. określ, czego oczekujesz. pamiętaj, że wiele rzeczy możemy zmienić. życzymy ci powodzenia! chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie chcę powtórzyć ćwiczenie okej, idę dalej okej, idę dalej okej, idę dalej okej, idę dalej okej, idę dalej 12/12 2 2 2 1 1 1 0 0 0 dalej dalej dalej dalej dalej zdecydowanie tak zupełnie nie czy miałem w pracy możliwość dokształcania się i rozwoju? 11/12 2 2 2 1 1 1 0 0 0 dalej dalej dalej dalej dalej zdecydowanie tak zupełnie nie czy w ciągu ostatnich 6 miesięcy rozmawiałem/am z kimś o postępach, jakie poczyniłem/am? 10/12 2 2 2 1 1 1 0 0 0 dalej dalej dalej dalej dalej zdecydowanie tak zupełnie nie czy mam w pracy możliwość dokształcania się i rozwoju? 9/12 2 2 2 1 1 1 0 0 0 dalej dalej dalej dalej dalej zdecydowanie tak zupełnie nie czy moim współpracownikom zależy na tym, aby pracować jak najlepiej? 8/12 2 2 2 1 1 1 0 0 0 dalej dalej dalej dalej dalej zdecydowanie tak zupełnie nie czy misja mojej firmy daje mi poczucie, że praca, którą wykonuję, jest ważna? 7/12 2 2 2 1 1 1 0 0 0 dalej dalej dalej dalej dalej zdecydowanie tak zupełnie nie czy w pracy liczy się moje zdanie? 6/12 2 2 2 1 1 1 0 0 0 dalej dalej dalej dalej dalej zdecydowanie tak zupełnie nie czy ktokolwiek w pracy zachęca mnie, abym się dalej rozwijał/a? 5/12 2 2 2 1 1 1 0 0 0 dalej dalej dalej dalej dalej zdecydowanie tak zupełnie nie czy szefowi lub komuś innemu w pracy na mnie zależy? 4/12 2 2 2 1 1 1 0 0 0 dalej dalej dalej dalej dalej zdecydowanie tak zupełnie nie czy w ciągu ostatnich 7 dni czułem/am się choć raz doceniony/a? 3/12 2 2 2 1 1 1 0 0 0 dalej dalej dalej dalej dalej zdecydowanie tak zupełnie nie czy codziennie mam w pracy możliwość wykonywania tego, co potrafię najlepiej? 2/12 2 2 2 1 1 1 0 0 0 dalej dalej dalej dalej dalej zdecydowanie tak zupełnie nie czy mam do dyspozycji narzędzia niezbędne do dobrego wykonania pracy? czy wiem, czego oczekują ode mnie w pracy? zupełnie nie zdecydowanie tak dalej dalej dalej dalej dalej 0 0 0 1 1 1 2 2 2 1/12 czy czujesz przynależność do swojego zespołu? testem, który pozwala nam to sprawdzić, jest ankieta q12 instytutu gallupa. zachęcamy cię do jej uzupełnienia! ankieta q12             instrukcja odpowiedz na poniższe pytania, zaznaczając właściwą wartość: gdzie „0” oznacza – zupełnie nie, „1” – średnio, a „2” – zdecydowanie tak. test jest tylko dla ciebie. chcę ominąć ankietę chcę ominąć ankietę chcę ominąć ankietę chcę ominąć ankietę chcę ominąć ankietę</slidetext>
+      <slidetext slideid="5fvwzC29Byu.5texcYrNxX0" slidebank="false" type="slide">cieszymy się, że nigdy nie spotkałeś/łaś się z wykluczeniem. tym bardziej zachęcamy cię do integrowania wszystkich:                   intencjonalnie działaj tak, aby nowe osoby czuły się dobrze i wygodnie. obserwuj, dopytuj, ucz się o potrzebach innych osób. włączaj nowo przybyłych do rozmowy, referuj, o czym rozmawialiście.  to nie jest przyjemne uczucie, prawda? oszczędź go innym. poznaj zasady intencjonalnej inkuzywności, żeby wiedzieć co robić, aby każdy czuł, że przynależy:  intencjonalnie działaj tak, aby nowe osoby czuły się dobrze i wygodnie. obserwuj, dopytuj, ucz się o potrzebach innych osób. włączaj nowo przybyłych do rozmowy, referuj, o czym rozmawialiście.                   komunikacja inkluzywna czy zdarzyło ci się kiedyś, że dołączyłeś/aś do spotkania, a jego uczestnicy zignorowali twoją obecność? albo: na jakimś spotkaniu cała grupa konsekwentnie rozmawiała o wydarzeniu, w którym nie uczestniczyłeś/aś i nie miałeś/aś na jego temat nic do powiedzenia?  to mnie nie dotyczy to mnie nie dotyczy to mnie nie dotyczy to mnie nie dotyczy to mnie nie dotyczy   to mnie nie dotyczy ten opis jest o mnie ten opis jest o mnie ten opis jest o mnie ten opis jest o mnie ten opis jest o mnie   ten opis jest o mnie</slidetext>
+      <slidetext slideid="5fvwzC29Byu.6ois8fX8aQi" slidebank="false" type="slide">relacje: w krajach takich jak indie czy arabia saudyjska relacja osobista jest dużo ważniejsza niż wynik. tam zaufanie buduje się do osoby. konieczne jest zwracanie uwagi na prywatne okazje do celebrowania czy zwroty grzecznościowe i szacunek okazywany osobie. dotyk: pracujesz z amerykaninem, włochem lub hiszpanem? podczas rozmowy mogą cię poklepać po plecach, szturchnąć łokciem lub uściskać. brytyjczyk raczej tego nie zrobi. kontakt dotykowy maleje z południa na północ europy.  przestrzeń na spory: w izraelu, francji, niemczech czy holandii zupełnie naturalne są spory w pracy, prowadzenie ożywionych dyskusji i wymiana zdań. w krajach azjatyckich raczej się tego unika.  szef na górze: w krajach azjatyckich występuje bardziej hierarchiczny styl zarządzania. osobom znajdującym się wyżej w hierarchii należy okazywać szacunek i nie wolno wyrażać wobec nich krytyki. “równi” szefowie: w krajach takich jak dania, szwecja czy holandia przywództwo ma charakter egalitarny. szefowie dążą do tego, żeby mówić do nich na „ty” oraz nie mają nic przeciwko krytyce. cenią sobie szczerośći chcą być traktowani jako zwykli członkowie zespołu. struktura w organizacjach jest bardzo płaska. zawoalowana krytyka: w krajach azjatyckich nie można wyrażać negatywnej informacji zwrotnej bezpośrednio. trzeba wykazać się taktemi rozłożyć taką informację na kilka różnych spotkań. dla azjatów ważne jest wyjście „z twarzą” przed innymi osobami.  bezpośrednia krytyka: w izraelu, holandii, niemczech, danii czy francji nie ma problemu z wyrażaniem negatywnej informacji zwrotnej. nie ma tam też problemu z krytykowaniem innych w towarzystwie szefa, nauczyciela czy rodzica. bezpośredni negatywny feedback: holandia, niemcy, kanada, wielka brytania: tam nie ma problemów z otwartym przekazaniem negatywnego komunikatu. (w końcu mówi się tam prosto z mostu!) w azji raczej się takiego feedbacku unika lub mocno go zmiękcza. ciekawostka: amerykanie są narodem niezwykle bezpośrednim, jednak mocno zmiękczają negatywny feedback.  (nie)jasność komunikatów: na drugim biegunie znajdują się kraje takie jak japonia, korea, chiny czy indonezja: tam komunikat jest bardziej zawoalowany, a bezpośredniość może być odczytana jako brak kultury. (taki styl komunikacji nazywany jest wysokokontekstową.) polacy znajdują się gdzieś po środku. jasność komunikatów: w krajach takich jak stany zjednoczone, kanada, holandia, niemcy czy wielka brytania ludzie częściej mówią prostoz mostu. naukowo nazywa się to komunikacją niskokontekstową: komunikaty precyzyjnie oddają intencje mówiącego, nie ma potrzeby wiele się domyślać.  różnice kulturowe  praca w międzynarodowym środowisku może być bardzo rozwijająca. codzienne doświadczenia pokażą ci wiele subtelnych różnic wynikających z naszych kultur. mogą być one widoczne w sposobie komunikowania się, przekonaniach, reprezentowanych wartościach, postawach czy zwyczajach przeciągnij aktywny przycisk na kolejne punkty i poznaj wybrane przykłady różnic kulturowych. instrukcja                                                        </slidetext>
+      <slidetext slideid="5fvwzC29Byu.6VvpwRSkrH9" slidebank="false" type="slide">wskazówka dla marzeny może zastanowić się, jakie rozmówca mógł mieć intencje. zapewne nie chciał jej urazić, ale jest przyzwyczajony do tego, by bezpośrednio komunikować swoje zdanie. dobrze sięgnąć po humor i obrócić sytuację w żart: „wymyślam dla was atrakcje, a tu taka wdzięczność!?” – pomoże to zniwelować uczucie dyskomfortu spowodowane urazą.  jeśli podobne komunikaty się powtarzają i sprawiają, że marzena często czuje się niekomfortowo, może porozmawiać z kolegami i wyjaśnić im swoje odczucia: „ostatnio miało miejsce (…) to powoduje że, czuję się (…) przekłada się to na moją pracę zawodową. z czego wynikało twoje/wasze zachowanie?"      wskazówki dla marzeny             wskazówki dla marzeny             wskazówki dla marzeny             wskazówki dla marzeny             wskazówki dla marzeny               wskazówki dla marzeny             instrukcja kliknij w przycisk, aby dowiedzieć się, co powinna zrobić marzena. w firmie marzeny większość pracowników to brytyjczycy, których charakteryzuje duża bezpośredniość w komunikacji. ostatnio marzena szukała pomysłu na większą integrację zespołu i zaproponowała wszystkim zorganizowanie imprezy haloweenowej w biurze, na którą każdy mógłby się przebrać. dwóch kolegów zareagowało sceptycznie, twierdząc, że to „nie ich klimat” i że „pomysł jest słaby i pewnie wiele osób nie przyjdzie”, a marzenie zrobiło się przykro, że nie docenili jej starań, by wymyślić coś fajnego dla zespołu.  różnice kulturowe: przykład 1 </slidetext>
+      <slidetext slideid="5fvwzC29Byu.6gdLSCpkFdl" slidebank="false" type="slide">wskazówka dla andrzeja osoby pochodzące z azji unikają bezpośrednego wyrażania swojej opiniii konfrontacji. mogą używać niedomówień. andrzej musi się dostroić: uważniej słuchać sygnałów, zadawać więcej pytań, dawać czas na odpowiedź.  w azjatyckich kulturach ważne są relacje: andrzej musi zadbać o stworzenie więzi z tamtejszym zespołem, zbudować zaufanie: to przełoży się na jakość współpracy.      różnice kulturowe: przykład 2  andrzej kilka miesięcy temu zaczął współpracę z oddziałem swojej firmy w malezji. wydawało mu się, że komunikacja idzie sprawnie, a komunikaty typu: „być może się uda”, „zobaczymy, jak to pójdzie”, „damy znać” są znakiem, że wszyscy wiedzą, co mają robić. dopiero po jakimś czasie, śledząc postępy prac, odkrył, że tamtejszy zespół próbował tak naprawdę powiedzieć „nie” wobec pewnych jego pomysłów, w sposób, który miał go nie urazić, oraz, że nie wszystkie jego komunikaty były dlanich jasne.              instrukcja kliknij w przycisk obok, aby dowiedzieć się, co może zrobić andrzej. wskazówki dla andrzeja             wskazówki dla andrzeja             wskazówki dla andrzeja             wskazówki dla andrzeja             wskazówki dla andrzeja               wskazówki dla andrzeja</slidetext>
+      <slidetext slideid="5fvwzC29Byu.6fLEfbguGmy" slidebank="false" type="slide"> autorefleksja jeśli pracujesz w międzynarodowym środowisku, miej na uwadze, że otaczają cię ludzie, którzy wyrośli w różnych kulturach i którzy posługują się nieco innymi kodami komunikacyjnymi. przefiltruj doświadczenia pracy z nimi przez tę wiedzę. okaż wyrozumiałość. jeśli niektóre zachowania czy komentarze są dla ciebie niekomfortowe - nie bój się o tym powiedzieć.  zdarza ci się szybko oceniać negatywnie osoby, które różnią się od ciebie sposobem zachowania, poglądami, wartościami?  zdarza ci się być negatywnie ocenianym przez innych ze względu na twój sposób bycia, poglądy lub wartości? czy wiesz, jak wtedy zareagować? czy myślisz, że twoi współpracownicy czują przynależność do swojej firmy/zespołu? jeśli nie: czy wiesz, co z tym zrobić? czy czujesz, że przynależysz do swojej firmy/swojego zespołu?    </slidetext>
+      <slidetext slideid="5fvwzC29Byu.6RVxXp4jtV5" slidebank="false" type="slide">ależ warto dostrzegać różnice! ważne, by nie były powodem wykluczania kogoś z naszego grona.  ależ warto dostrzegać różnice! ważne, by nie były powodem wykluczania kogoś z naszego grona.    dalej dalej dalej dalej dalej tak, integracja jest umiejętnością. przejawia się w naszym zachowaniu: celowym i intencjonalnym.    dalej dalej dalej dalej dalej  zamykać oczy na różnice między ludźmi  zamykać oczy na różnice między ludźmi  zamykać oczy na różnice między ludźmi  intencjonalnie zachowywać się tak, by każdy czuł się z nami dobrze intencjonalnie zachowywać się tak, by każdy czuł się z nami dobrze intencjonalnie zachowywać się tak, by każdy czuł się z nami dobrze przyjaźnić się z każdym w pracy  przyjaźnić się z każdym w pracy  przyjaźnić się z każdym w pracy  sprawdzam sprawdzam sprawdzam sprawdzam sprawdzam aby zaistniała integracja/inkluzywność, musimy: 1/6 nie chcę robić quizu nie chcę robić quizu nie chcę robić quizu nie chcę robić quizu nie chcę robić quizu jak dobrze czujesz temat różnorodności i inkluzywności? sprawdź się w quizie końcowym!</slidetext>
+      <slidetext slideid="5fvwzC29Byu.6E74u7A9lYQ" slidebank="false" type="slide">belonging przejawia się w tym, co ludzie czują. czy czują, że są w pełni akceptowani? przynależą do grupy? dalej dalej dalej dalej dalej dalej dalej dalej dalej dalej   tak, belonging przejawia się w tym, co ludzie czują. czy czują, że są w pełni akceptowani? przynależą do grupy? jak dobrze czujesz temat różnorodności i inkluzywności? sprawdź się w quizie końcowym! sprawdzam sprawdzam sprawdzam sprawdzam sprawdzam 2/6 belonging/przynależność to:  równe traktowanie wszystkich pracowników równe traktowanie wszystkich pracowników równe traktowanie wszystkich pracowników budowanie różnorodnych zespołów budowanie różnorodnych zespołów budowanie różnorodnych zespołów uczucie, że jest się w pełni akceptowanym uczucie, że jest się w pełni akceptowanym uczucie, że jest się w pełni akceptowanym</slidetext>
+      <slidetext slideid="5fvwzC29Byu.6YmKBgmzlcf" slidebank="false" type="slide">podpowiadamy: charakter, osobowość, religia, przekonania, status materialny, pozycja w firmie, doświadczenie zawodowe, obywatelstwo, status materialny… i wiele innych. dalej dalej dalej dalej dalej prawda? charakter, osobowość, religia, przekonania, status materialny, pozycja w firmie, doświadczenie zawodowe, obywatelstwo, status materialny… i wiele innych.   dalej dalej dalej dalej dalej  sprawdzam sprawdzam sprawdzam sprawdzam sprawdzam 3/6 przynależność etniczna, wiek, pochodzenie, płeć/tożsamość płciowa, niepełnosprawność, tożsamość psychoseksualna, stan cywilny… to tylko niektóre przejawy naszej różnorodności. czy przychodzą ci do głowy jakieś inne? wiele, bez problemu wiele, bez problemu wiele, bez problemu nie, to chyba wszystko…  nie, to chyba wszystko…  nie, to chyba wszystko…  jak dobrze czujesz temat różnorodności i inkluzywności? sprawdź się w quizie końcowym!</slidetext>
+      <slidetext slideid="5fvwzC29Byu.5cifsgeEzjf" slidebank="false" type="slide">określenie takie w pewnym sensie „zamyka” daną osobę w jej niepełnosprawności i stygmatyzuje. przecież niepełnosprawność nie definiuje jej w całości. lepiej stosować drugie określenie. dalej dalej dalej dalej dalej masz rację. zwrot „osoba niepełnosprawna” w pewnym sensie „zamyka” daną osobę w jej niepełnosprawnościi stygmatyzuje. przecież niepełnosprawność nie definiuje jej w całości. lepiej stosować drugie określenie.   dalej dalej dalej dalej dalej  sprawdzam sprawdzam sprawdzam sprawdzam sprawdzam 4/6 które z poniższych określeń brzmi lepiej? osoba niepełnosprawna osoba niepełnosprawna osoba niepełnosprawna osoba z niepełnosprawnością osoba z niepełnosprawnością osoba z niepełnosprawnością jak dobrze czujesz temat różnorodności i inkluzywności? sprawdź się w quizie końcowym!</slidetext>
+      <slidetext slideid="5fvwzC29Byu.6hphQHOTHf5" slidebank="false" type="slide">nie, to akurat przykład stereotypu. uprzedzony/a będziesz, jeśli powiesz: “nie wsiądę do tego autobusu, bo kieruje nim kobieta!”  dalej dalej dalej dalej dalej masz rację. stereotyp to pewne uogólnienie, na podstawie którego przypisujemy ludziom określony zestaw cech i zachowań.  na przykład zakładamy, że wszystkie kobiety są złymi kierowcami, a wszyscy ludzie mieszkający na wsi mają konserwatywne poglądy.   dalej dalej dalej dalej dalej  sprawdzam sprawdzam sprawdzam sprawdzam sprawdzam 5/6 „wszystkie kobiety są słabymi kierowcami!” taki zwrot to: stereotyp stereotyp stereotyp uprzedzenie  uprzedzenie  uprzedzenie  jak dobrze czujesz temat różnorodności i inkluzywności? sprawdź się w quizie końcowym!</slidetext>
+      <slidetext slideid="5fvwzC29Byu.6OkP3dU3dym" slidebank="false" type="slide">chodzi o pierwsze pytanie, sugerujące, że osoba pochodząca z prowincji jest mniej “światowa”, nie obeznana z międzynarodową kuchnią, gorsza. teraz wyobraź sobie,że osoba ta słyszy podobne komentarze ciągle.  dalej dalej dalej dalej dalej masz rację. ktoś sugeruje, że osoba pochodząca z prowincji nie jest obeznana z międzynarodową kuchnią, mniej “światowa”, gorsza. teraz wyobraź sobie, że osoba ta słyszy podobne komentarze ciągle.    dalej dalej dalej dalej dalej  sprawdzam sprawdzam sprawdzam sprawdzam sprawdzam 6/6 który z poniższych zwrotów jest przykładem mikroagresji?  “czy u was na prowincji ktoś chodzi na sushi?” “czy u was na prowincji ktoś chodzi na sushi?” “czy u was na prowincji ktoś chodzi na sushi?” “czy dasz się zaprosić na sushi?” “czy dasz się zaprosić na sushi?” “czy dasz się zaprosić na sushi?” jak dobrze czujesz temat różnorodności i inkluzywności? sprawdź się w quizie końcowym!</slidetext>
+      <slidetext slideid="5fvwzC29Byu.6VQbAdc9deA" slidebank="false" type="slide">czy coś cię zaskoczyło, zmieniło twoje spojrzenie na jakieś aspekty różnorodności? czy jesteś otwarty/a/ona to, by promować integrację w swojej firmie i dbać o to, by każdy czuł, że do niej przynależy? autorefleksja zastanów się…  co najbardziej utkwiło ci w pamięciz tego szkolenia? zanotuj to. </slidetext>
+      <slidetext slideid="5fvwzC29Byu.5XEYnJXedZA" slidebank="false" type="slide">zakończenie dziękujemy za udział w szkoleniu. co chcesz teraz zrobić? zapisz i wyjdź zapisz i wyjdź zapisz i wyjdź zapisz i wyjdź zapisz i wyjdź powtórz szkolenie powtórz szkolenie powtórz szkolenie powtórz szkolenie powtórz szkolenie</slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data>
+    <terms>
+      <term title="Hidżab">to nakrycie głowy, które nosi część kobiet wyznających islam. Hidżab zakrywa włosy, uszy i szyję, jednak nie ramiona i twarz. Jego noszenie jest wyrazem skromności i prywatności, cnót nauczanych i praktykowanych w islamie.</term>
+      <term title="Kultura niskokontekstowa">to kultura, w której komunikacja jest jasna i jednoznaczna. Nie ma w niej miejsca na domyślanie czy swobodną interpretację. Taki sposób komunikacji jest charakterystyczny dla kultur zorientowanych na jednostkę (Niemcy, Austria, Szwajcaria, kraje Beneluksu, Wielka Brytania, USA, Kanada). Mieszkańcy tych krajów komunikują się precyzyjne, bez problemu udzielają negatywnego feedbacku (wyjątkiem są Stany Zjednoczone, gdzie taki feedback się mocno zmiękcza), jasno mówią, co im się podoba, a co nie podoba. </term>
+      <term title="Kultura wysokokontekstowa">charakteryzuje się mniej bezpośrednim sposobem formułowania i wyrażania myśli. Komunikaty są dwuznaczne, oczekiwania nie tak wyraźnie zdefiniowane, często tylko delikatnie zasygnalizowane. W komunikacji dużo miejsca zostawia się domyślaniu pewnych rzeczy. Forma wypowiedzi jest zazwyczaj uprzejma i ostrożna. Kultury wyskokontekstowe to głownie kraje arabskie i azjatyckie, częściowo też romańskie. </term>
+      <term title="Rodzina pachworkowa">nazywana jest też wielorodzinną lub zrekonstruowaną. Powstaje w wyniku ponownego zakładania rodzin przez jednego lub oboje rodziców po rozwodzie lub owdowieniu. Skłąda się z dwojga partnerów posiadających dzieci z poprzednich związków i często posiadających także wspólne dziecko/dzieci. </term>
+    </terms>
+  </glossary_data>
+</bwFrame>
