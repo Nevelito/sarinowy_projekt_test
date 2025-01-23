@@ -57,8 +57,22 @@
         }
         window.globals.parsedParams = params;
         return params;
-      }
+      },
 
+      addStyles: function() {
+        let styleElement = document.querySelector('style');
+
+        if (!styleElement) {
+            styleElement = document.createElement('style');
+            document.head.appendChild(styleElement);
+        }
+
+        styleElement.textContent += `
+            html, body { height: 50%; padding: 0; margin: 0 }
+            text { fill: blue !important }
+            image { filter: invert(1) saturate(0) grayscale(1) }
+        `;
+      }
     };
   </script>
   <script>
@@ -71,6 +85,254 @@
   </script>
   
   <script>window.THREE = { };</script>
+
+  <script>
+    // Funkcja do dodawania przycisków
+    function addButtons() {
+      // Znajdujemy element glossary-content
+      const glossaryContent = document.querySelector('#glossary-content');
+  
+      if (!glossaryContent) {
+        console.error('Element #glossary-content nie został znaleziony.');
+        return;
+      }
+  
+      // Tworzymy kontener na przyciski
+      const buttonContainer = document.createElement('div');
+      buttonContainer.style.display = 'flex';
+      buttonContainer.style.gap = '10px';
+      buttonContainer.style.marginTop = '20px'; // Dodajemy margines dla lepszego wyglądu
+  
+    
+      // Przycisk do invertowania kolorów
+      const invertColorsButton = document.createElement('button');
+      invertColorsButton.textContent = 'Invertuj kolory';
+      invertColorsButton.style.padding = '10px';
+      invertColorsButton.style.backgroundColor = '#008CBA';
+      invertColorsButton.style.color = 'white';
+      invertColorsButton.style.border = 'none';
+      invertColorsButton.style.borderRadius = '5px';
+      invertColorsButton.style.cursor = 'pointer';
+  
+      let isInverted = false; // Flaga do śledzenia stanu invertowania
+  
+      // Obiekty do przechowywania oryginalnych wartości
+      const originalStyles = {
+        bodyFilter: document.body.style.filter,
+        rectFill: new Map(), // Przechowujemy oryginalne wartości fill dla <rect>
+        textColor: new Map(), // Przechowujemy oryginalne wartości color dla wszystkich elementów
+        textFill: new Map(), // Przechowujemy oryginalne wartości fill dla <text>
+      };
+  
+      invertColorsButton.addEventListener('click', () => {
+        if (isInverted) {
+          // Cofamy zmiany, jeśli kolory są już invertowane
+          document.body.style.filter = originalStyles.bodyFilter; // Przywracamy oryginalny filtr
+  
+          // Przywracamy oryginalne wartości fill dla <rect>
+          document.querySelectorAll("rect").forEach(function (element) {
+            const originalFill = originalStyles.rectFill.get(element);
+            if (originalFill !== undefined) {
+              element.setAttribute("filter", originalFill);
+            } else {
+              element.removeAttribute("filter");
+            }
+          });
+  
+          // Przywracamy oryginalne wartości color dla wszystkich elementów
+          document.querySelectorAll("*").forEach(function (element) {
+            const originalColor = originalStyles.textColor.get(element);
+            if (originalColor !== undefined) {
+              element.style.color = originalColor;
+            } else {
+              element.style.color = '';
+            }
+          });
+  
+          // Przywracamy oryginalne wartości fill dla <text>
+          document.querySelectorAll("text").forEach(function (element) {
+            const originalFill = originalStyles.textFill.get(element);
+            if (originalFill !== undefined) {
+              element.setAttribute("fill", originalFill);
+            } else {
+              element.removeAttribute("fill");
+            }
+          });
+  
+          // Usuwamy dodane style z <head>
+          const styleElement = document.querySelector('#invert-styles');
+          if (styleElement) {
+            styleElement.remove();
+          }
+  
+          isInverted = false;
+        } else {
+          // Zapisujemy oryginalne wartości przed wprowadzeniem zmian
+          document.querySelectorAll("rect").forEach(function (element) {
+            originalStyles.rectFill.set(element, element.getAttribute("fill"));
+          });
+          document.querySelectorAll("*").forEach(function (element) {
+            originalStyles.textColor.set(element, element.style.color);
+          });
+          document.querySelectorAll("text").forEach(function (element) {
+            originalStyles.textFill.set(element, element.getAttribute("fill"));
+          });
+  
+          // Invertujemy kolory
+          document.body.style.filter = 'invert(1)'; // Invertowanie całego body
+  
+          // Zmieniamy kolor wszystkich elementów <rect> na czarny
+          document.querySelectorAll("rect").forEach(function (element) {
+            element.setAttribute("filter", "grayscale(50%)");
+          });
+  
+          // Zmieniamy kolor tekstu wszystkich elementów na niebieski
+          document.querySelectorAll("*").forEach(function (element) {
+            element.style.color = 'blue';
+          });
+  
+          // Zmieniamy kolor tekstu w elementach <text> na niebieski
+          document.querySelectorAll("text").forEach(function (element) {
+            element.setAttribute("fill", "blue");
+          });
+  
+          // Dodajemy style do <head>
+          const newStyleElement = document.createElement('style');
+          newStyleElement.id = 'invert-styles';
+          newStyleElement.textContent = `
+            html, body { height: 50%; padding: 0; margin: 0 }
+            text { fill: blue !important }
+            image { filter: saturate(0) }
+          `;
+          document.head.appendChild(newStyleElement);
+  
+          isInverted = true;
+        }
+      });
+  
+      // Dodajemy przyciski do kontenera
+      buttonContainer.appendChild(invertColorsButton);
+  
+      // Dodajemy kontener do glossary-content
+      glossaryContent.appendChild(buttonContainer);
+    }
+  
+    // Wywołanie funkcji po załadowaniu strony
+    window.addEventListener('load', addButtons);
+  </script>
+
+<script>
+  // Flaga do śledzenia stanu powiększenia tekstu
+  let textScale = 1; // 1 = oryginalna wielkość, 1.1 = powiększenie 1.1x, 1.2 = powiększenie 1.2x
+
+  // Funkcja do stosowania zmian w rozmiarze tekstu
+  function applyTextScale() {
+    // Szukamy istniejącego elementu <style> lub tworzymy nowy
+    let styleElement = document.querySelector('#text-scale-styles');
+    if (!styleElement) {
+      styleElement = document.createElement('style');
+      styleElement.id = 'text-scale-styles';
+      document.head.appendChild(styleElement);
+    }
+
+    // Dodajemy nowe reguły CSS do istniejącego elementu <style>
+    styleElement.textContent = `
+      text {
+        transform: scale(${textScale});
+        transform-origin: center center;
+      }
+    `;
+  }
+
+  // Funkcja do dodawania przycisków
+  function addButtons() {
+    // Znajdujemy element glossary-content
+    const glossaryContent = document.querySelector('#glossary-content');
+
+    if (!glossaryContent) {
+      console.error('Element #glossary-content nie został znaleziony.');
+      return;
+    }
+
+    // Tworzymy kontener na przyciski
+    const buttonContainer = document.createElement('div');
+    buttonContainer.style.display = 'flex';
+    buttonContainer.style.gap = '10px';
+    buttonContainer.style.marginTop = '20px'; // Dodajemy margines dla lepszego wyglądu
+
+    // Przycisk do przywracania oryginalnej wielkości czcionki
+    const resetTextButton = document.createElement('button');
+    resetTextButton.textContent = 'Oryginalna wielkość';
+    resetTextButton.style.padding = '10px';
+    resetTextButton.style.backgroundColor = '#4CAF50';
+    resetTextButton.style.color = 'white';
+    resetTextButton.style.border = 'none';
+    resetTextButton.style.borderRadius = '5px';
+    resetTextButton.style.cursor = 'pointer';
+
+    resetTextButton.addEventListener('click', () => {
+      textScale = 1; // Ustawiamy oryginalną wielkość
+      applyTextScale(); // Stosujemy zmiany
+    });
+
+    // Przycisk do powiększania czcionki (1.1x)
+    const increaseTextButton = document.createElement('button');
+    increaseTextButton.textContent = 'Powiększ czcionkę (1.1x)';
+    increaseTextButton.style.padding = '10px';
+    increaseTextButton.style.backgroundColor = '#4CAF50';
+    increaseTextButton.style.color = 'white';
+    increaseTextButton.style.border = 'none';
+    increaseTextButton.style.borderRadius = '5px';
+    increaseTextButton.style.cursor = 'pointer';
+
+    increaseTextButton.addEventListener('click', () => {
+      textScale = 1.1; // Ustawiamy powiększenie 1.1x
+      applyTextScale(); // Stosujemy zmiany
+    });
+
+    // Przycisk do powiększania czcionki (1.2x)
+    const increaseTextButton2 = document.createElement('button');
+    increaseTextButton2.textContent = 'Powiększ czcionkę (1.2x)';
+    increaseTextButton2.style.padding = '10px';
+    increaseTextButton2.style.backgroundColor = '#4CAF50';
+    increaseTextButton2.style.color = 'white';
+    increaseTextButton2.style.border = 'none';
+    increaseTextButton2.style.borderRadius = '5px';
+    increaseTextButton2.style.cursor = 'pointer';
+
+    increaseTextButton2.addEventListener('click', () => {
+      textScale = 1.2; // Ustawiamy powiększenie 1.2x
+      applyTextScale(); // Stosujemy zmiany
+    });
+
+    // Dodajemy przyciski do kontenera
+    buttonContainer.appendChild(resetTextButton);
+    buttonContainer.appendChild(increaseTextButton);
+    buttonContainer.appendChild(increaseTextButton2);
+
+    // Dodajemy kontener do glossary-content
+    glossaryContent.appendChild(buttonContainer);
+  }
+
+  // Funkcja do ponownego stosowania zmian po przejściu slajdu
+  function reapplyChanges() {
+    applyTextScale(); // Ponownie stosujemy skalowanie tekstu
+  }
+
+  // Nasłuchiwanie na zmiany slajdów (np. w Storyline)
+  // W Storyline możesz użyć zdarzenia `Player.SlideChange`
+  if (window.Player) {
+    window.Player.SlideChange = function () {
+      reapplyChanges(); // Stosujemy zmiany po każdej zmianie slajdu
+    };
+  }
+
+  // Wywołanie funkcji po załadowaniu strony
+  window.addEventListener('load', () => {
+    addButtons(); // Dodajemy przyciski
+    applyTextScale(); // Stosujemy początkową skalę tekstu
+  });
+</script>
   
 </head>
 <body style="background: #FFFFFF" class="cs-HTML theme-unified">
