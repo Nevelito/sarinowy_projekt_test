@@ -266,8 +266,6 @@
 
       // Obsługa przycisku "Czarno-biały"
       grayscaleButton.addEventListener('click', () => {
-        resetStyles();
-
         document.querySelectorAll("*").forEach(function (element) {
           originalStyles.textColor.set(element, element.style.color);
         });
