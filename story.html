@@ -72,7 +72,6 @@
   <script>window.THREE = { };</script>
   
   <script>
-    // Funkcja do dodawania przycisków
     function addButtons() {
       const topBar = document.querySelector('#top-bar');
 
@@ -81,7 +80,7 @@
         return;
       }
 
-      // Tworzymy kontener na przyciski
+      // Create buttons container
       const buttonContainer = document.createElement('div');
       buttonContainer.style.display = 'flex';
       buttonContainer.style.position = 'absolute';
@@ -95,7 +94,7 @@
       buttonContainer.style.marginTop = '20px';
       buttonContainer.style.marginBottom = '20px';
 
-      // Sekcja "Kontrast"
+      // section "Kontrast"
       const contrastSection = document.createElement('div');
       contrastSection.style.display = 'flex';
       contrastSection.style.alignItems = 'center';
@@ -115,7 +114,7 @@
       contrastSection.appendChild(grayscaleButton);
       contrastSection.appendChild(resetButton);
 
-      // Sekcja "Wielkość tekstu"
+      // section "Wielkość tekstu"
       const textSizeSection = document.createElement('div');
       textSizeSection.style.display = 'flex';
       textSizeSection.style.alignItems = 'center';
@@ -142,19 +141,14 @@
       textSizeSection.appendChild(increaseTextButton);
       textSizeSection.appendChild(increaseTextButton2);
 
-      // Dodajemy sekcje do kontenera
+      // Add sections to contaier and conteiner to top-bar
       buttonContainer.appendChild(contrastSection);
       buttonContainer.appendChild(textSizeSection);
-
-      // Dodajemy kontener do top-bar
       topBar.appendChild(buttonContainer);
 
-      // Flagi do śledzenia stanu przycisków
-      let isInverted = false;
-      let isGrayscale = false;
+      // Set default scale
       let textScale = 1;
 
-      // Obiekty do przechowywania oryginalnych wartości
       const originalStyles = {
         bodyFilter: document.body.style.filter,
         rectFill: new Map(),
@@ -162,7 +156,6 @@
         textFill: new Map(),
       };
 
-      // Funkcja do tworzenia przycisków
       function createButton(text, title, bgColor, textColor, id) {
         const button = document.createElement('button');
         button.textContent = text;
@@ -177,7 +170,6 @@
         return button;
       }
 
-      // Funkcja do resetowania stylów
       function resetStyles() {
         document.body.style.filter = originalStyles.bodyFilter;
 
@@ -208,11 +200,9 @@
         grayscaleButton.disabled = false;
         resetButton.disabled = true;
 
-        isInverted = false;
-        isGrayscale = false;
+        applyButtonsStyles();
       }
 
-      // Funkcja do zmiany skali tekstu
       function applyTextScale() {
         let styleElement = document.querySelector('#text-scale-styles');
         if (!styleElement) {
@@ -233,17 +223,36 @@
         `;
       }
 
-      // Obsługa przycisku "Invertuj kolory"
+      function applyButtonsStyles(){
+        if(invertColorsButton.disabled == true){
+          grayscaleButton.style.color = 'black';
+          grayscaleButton.style.backgroundColor = 'white';
+          invertColorsButton.style.color = 'blue';
+          invertColorsButton.style.backgroundColor = 'white';
+          resetButton.style.color = 'black';
+          resetButton.style.backgroundColor = '#FF7345';
+        }else {
+          grayscaleButton.style.color = 'white';
+          grayscaleButton.style.backgroundColor = 'black';
+          invertColorsButton.style.color = 'yellow';
+          invertColorsButton.style.backgroundColor = 'black';
+          resetButton.style.color = 'white';
+          resetButton.style.backgroundColor = '#008CBA';
+        }
+      }
+
       invertColorsButton.addEventListener('click', () => {
+        if(grayscaleButton.disabled == true){
+          resetStyles();
+        }
+
         document.querySelectorAll("*").forEach(function (element) {
           originalStyles.textColor.set(element, element.style.color);
         });
         document.querySelectorAll("text").forEach(function (element) {
           originalStyles.textFill.set(element, element.getAttribute("fill"));
         });
-
         document.body.style.filter = 'invert(1)';
-
         document.querySelectorAll("*").forEach(function (element) {
           element.style.color = 'blue';
         });
@@ -261,18 +270,20 @@
         grayscaleButton.disabled = false;
         resetButton.disabled = false;
 
-        isInverted = true;
+        applyButtonsStyles();
       });
 
-      // Obsługa przycisku "Czarno-biały"
       grayscaleButton.addEventListener('click', () => {
+        if(invertColorsButton.disabled == true){
+          resetStyles();
+        }
+
         document.querySelectorAll("*").forEach(function (element) {
           originalStyles.textColor.set(element, element.style.color);
         });
         document.querySelectorAll("text").forEach(function (element) {
           originalStyles.textFill.set(element, element.getAttribute("fill"));
         });
-
         document.querySelectorAll("*").forEach(function (element) {
           element.style.color = 'black';
         });
@@ -286,20 +297,15 @@
         `;
         document.head.appendChild(newStyleElement);
 
-        grayscaleButton.style.color = 'white';
-        invertColorsButton.style.color = 'yellow';
-        resetButton.style.color = 'white';
         grayscaleButton.disabled = true;
         invertColorsButton.disabled = false;
         resetButton.disabled = false;
 
-        isGrayscale = true;
+        applyButtonsStyles();
       });
 
-      // Obsługa przycisku "Przywróć oryginalne kolory"
       resetButton.addEventListener('click', resetStyles);
 
-      // Obsługa przycisków zmiany wielkości tekstu
       resetTextButton.addEventListener('click', () => {
         textScale = 1;
         applyTextScale();
@@ -316,19 +322,16 @@
       });
     }
 
-    // Funkcja do ponownego zastosowania zmian po zmianie slajdu
+    // Function to append changes after slide change
     function reapplyChanges() {
       applyTextScale();
     }
 
-    // Obsługa zmiany slajdu
     if (window.Player) {
       window.Player.SlideChange = function () {
         reapplyChanges();
       };
     }
-
-    // Wywołanie funkcji po załadowaniu strony
     window.addEventListener('load', addButtons);
   </script>
 
